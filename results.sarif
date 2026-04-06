@@ -11,291 +11,939 @@
                     "rules": [
                         {
                             "id": "CS0001",
-                            "name": "Async Void Method"
+                            "name": "Async Void Method",
+                            "shortDescription": {
+                                "text": "Async Void Method"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "bug"
+                                ],
+                                "severity": "Major"
+                            }
                         },
                         {
                             "id": "CS0002",
-                            "name": "Avoid Catching Generic Exception"
-                        },
-                        {
-                            "id": "CS0004",
-                            "name": "Boolean Method Naming"
-                        },
-                        {
-                            "id": "CS0007",
-                            "name": "Class Naming Convention"
-                        },
-                        {
-                            "id": "CS0010",
-                            "name": "Configure Await False"
-                        },
-                        {
-                            "id": "CS0011",
-                            "name": "Constant Naming Convention"
-                        },
-                        {
-                            "id": "CS0015",
-                            "name": "Cyclomatic Complexity"
-                        },
-                        {
-                            "id": "CS0021",
-                            "name": "Empty Finally Block"
-                        },
-                        {
-                            "id": "CS0025",
-                            "name": "Excessive Parameter List"
-                        },
-                        {
-                            "id": "CS0030",
-                            "name": "Hardcoded Credentials"
-                        },
-                        {
-                            "id": "CS0032",
-                            "name": "Information Exposure"
-                        },
-                        {
-                            "id": "CS0034",
-                            "name": "Insecure Random"
-                        },
-                        {
-                            "id": "CS0040",
-                            "name": "Method Naming Convention"
-                        },
-                        {
-                            "id": "CS0041",
-                            "name": "Method Too Long"
-                        },
-                        {
-                            "id": "CS0043",
-                            "name": "Missing Cancellation Token"
-                        },
-                        {
-                            "id": "CS0047",
-                            "name": "No Console Write Line"
-                        },
-                        {
-                            "id": "CS0051",
-                            "name": "Private Field Naming"
-                        },
-                        {
-                            "id": "CS0053",
-                            "name": "Public Field"
-                        },
-                        {
-                            "id": "CS0060",
-                            "name": "String Concat In Loop"
-                        },
-                        {
-                            "id": "CS0069",
-                            "name": "Weak Hashing Algorithm"
+                            "name": "Avoid Catching Generic Exception",
+                            "shortDescription": {
+                                "text": "Avoid Catching Generic Exception"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "maintainability"
+                                ],
+                                "severity": "Major"
+                            }
                         },
                         {
                             "id": "CS0003",
-                            "name": "Avoid Throwing Generic Exception"
+                            "name": "Avoid Throwing Generic Exception",
+                            "shortDescription": {
+                                "text": "Avoid Throwing Generic Exception"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "maintainability"
+                                ],
+                                "severity": "Minor"
+                            }
+                        },
+                        {
+                            "id": "CS0004",
+                            "name": "Boolean Method Naming",
+                            "shortDescription": {
+                                "text": "Boolean Method Naming"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "maintainability"
+                                ],
+                                "severity": "Info"
+                            }
                         },
                         {
                             "id": "CS0005",
-                            "name": "Boxing Value Type"
+                            "name": "Boxing Value Type",
+                            "shortDescription": {
+                                "text": "Boxing Value Type"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "maintainability"
+                                ],
+                                "severity": "Minor"
+                            }
                         },
                         {
                             "id": "CS0006",
-                            "name": "Catch And Rethrow"
+                            "name": "Catch And Rethrow",
+                            "shortDescription": {
+                                "text": "Catch And Rethrow"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "bug"
+                                ],
+                                "severity": "Major"
+                            }
                         },
                         {
-                            "id": "CS0009",
-                            "name": "Compare Floating Point"
-                        },
-                        {
-                            "id": "CS0016",
-                            "name": "Dictionary Try Get Value"
-                        },
-                        {
-                            "id": "CS0018",
-                            "name": "Duplicate Literal"
-                        },
-                        {
-                            "id": "CS0022",
-                            "name": "Empty Interface"
-                        },
-                        {
-                            "id": "CS0023",
-                            "name": "Equals Without Get Hash Code"
-                        },
-                        {
-                            "id": "CS0026",
-                            "name": "Finalizer Without Suppress Finalize"
-                        },
-                        {
-                            "id": "CS0027",
-                            "name": "Fire And Forget"
-                        },
-                        {
-                            "id": "CS0028",
-                            "name": "First Or Default Without Null Check"
-                        },
-                        {
-                            "id": "CS0029",
-                            "name": "Gc Collect"
-                        },
-                        {
-                            "id": "CS0035",
-                            "name": "Interface Naming Convention"
-                        },
-                        {
-                            "id": "CS0037",
-                            "name": "Linq Count Vs Any"
-                        },
-                        {
-                            "id": "CS0038",
-                            "name": "Local Variable Naming Convention"
-                        },
-                        {
-                            "id": "CS0039",
-                            "name": "Lock On This Or Public"
-                        },
-                        {
-                            "id": "CS0044",
-                            "name": "Multiple Return Points"
-                        },
-                        {
-                            "id": "CS0045",
-                            "name": "Nested Ternary"
-                        },
-                        {
-                            "id": "CS0046",
-                            "name": "Nesting Depth"
-                        },
-                        {
-                            "id": "CS0049",
-                            "name": "Parameter Naming Convention"
-                        },
-                        {
-                            "id": "CS0052",
-                            "name": "Property Naming Convention"
-                        },
-                        {
-                            "id": "CS0055",
-                            "name": "Regex In Loop"
-                        },
-                        {
-                            "id": "CS0057",
-                            "name": "Sql Injection"
-                        },
-                        {
-                            "id": "CS0059",
-                            "name": "Static Mutable Collection"
-                        },
-                        {
-                            "id": "CS0061",
-                            "name": "String Format With Interpolation"
-                        },
-                        {
-                            "id": "CS0062",
-                            "name": "String Null Or Empty Check"
-                        },
-                        {
-                            "id": "CS0063",
-                            "name": "Thread Sleep In Async"
-                        },
-                        {
-                            "id": "CS0065",
-                            "name": "Todo Comment"
-                        },
-                        {
-                            "id": "CS0066",
-                            "name": "To List Before Linq"
-                        },
-                        {
-                            "id": "CS0067",
-                            "name": "Too Many Fields"
-                        },
-                        {
-                            "id": "CS0068",
-                            "name": "Unsafe Code"
-                        },
-                        {
-                            "id": "CS0017",
-                            "name": "Disposable Not In Using"
-                        },
-                        {
-                            "id": "CS0020",
-                            "name": "Empty Catch Block"
+                            "id": "CS0007",
+                            "name": "Class Naming Convention",
+                            "shortDescription": {
+                                "text": "Class Naming Convention"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "maintainability"
+                                ],
+                                "severity": "Minor"
+                            }
                         },
                         {
                             "id": "CS0008",
-                            "name": "Command Injection"
+                            "name": "Command Injection",
+                            "shortDescription": {
+                                "text": "Command Injection"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "security"
+                                ],
+                                "severity": "Blocker"
+                            }
+                        },
+                        {
+                            "id": "CS0009",
+                            "name": "Compare Floating Point",
+                            "shortDescription": {
+                                "text": "Compare Floating Point"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "bug"
+                                ],
+                                "severity": "Minor"
+                            }
+                        },
+                        {
+                            "id": "CS0010",
+                            "name": "Configure Await False",
+                            "shortDescription": {
+                                "text": "Configure Await False"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "maintainability"
+                                ],
+                                "severity": "Minor"
+                            }
+                        },
+                        {
+                            "id": "CS0011",
+                            "name": "Constant Naming Convention",
+                            "shortDescription": {
+                                "text": "Constant Naming Convention"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "maintainability"
+                                ],
+                                "severity": "Info"
+                            }
                         },
                         {
                             "id": "CS0012",
-                            "name": "Cookie Http Only Missing"
+                            "name": "Cookie Http Only Missing",
+                            "shortDescription": {
+                                "text": "Cookie Http Only Missing"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "security"
+                                ],
+                                "severity": "Major"
+                            }
                         },
                         {
                             "id": "CS0013",
-                            "name": "Cookie Secure Flag Missing"
+                            "name": "Cookie Secure Flag Missing",
+                            "shortDescription": {
+                                "text": "Cookie Secure Flag Missing"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "security"
+                                ],
+                                "severity": "Major"
+                            }
                         },
                         {
                             "id": "CS0014",
-                            "name": "Csrf Protection Missing"
+                            "name": "Csrf Protection Missing",
+                            "shortDescription": {
+                                "text": "Csrf Protection Missing"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "security"
+                                ],
+                                "severity": "Critical"
+                            }
+                        },
+                        {
+                            "id": "CS0015",
+                            "name": "Cyclomatic Complexity",
+                            "shortDescription": {
+                                "text": "Cyclomatic Complexity"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "maintainability"
+                                ],
+                                "severity": "Major"
+                            }
+                        },
+                        {
+                            "id": "CS0016",
+                            "name": "Dictionary Try Get Value",
+                            "shortDescription": {
+                                "text": "Dictionary Try Get Value"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "maintainability"
+                                ],
+                                "severity": "Minor"
+                            }
+                        },
+                        {
+                            "id": "CS0017",
+                            "name": "Disposable Not In Using",
+                            "shortDescription": {
+                                "text": "Disposable Not In Using"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "bug"
+                                ],
+                                "severity": "Major"
+                            }
+                        },
+                        {
+                            "id": "CS0018",
+                            "name": "Duplicate Literal",
+                            "shortDescription": {
+                                "text": "Duplicate Literal"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "maintainability"
+                                ],
+                                "severity": "Minor"
+                            }
                         },
                         {
                             "id": "CS0019",
-                            "name": "ECB Mode Encryption"
+                            "name": "ECB Mode Encryption",
+                            "shortDescription": {
+                                "text": "ECB Mode Encryption"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "security"
+                                ],
+                                "severity": "Critical"
+                            }
                         },
                         {
-                            "id": "CS0031",
-                            "name": "Hardcoded Ip Address"
+                            "id": "CS0020",
+                            "name": "Empty Catch Block",
+                            "shortDescription": {
+                                "text": "Empty Catch Block"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "bug"
+                                ],
+                                "severity": "Major"
+                            }
                         },
                         {
-                            "id": "CS0033",
-                            "name": "Insecure Deserialization"
+                            "id": "CS0021",
+                            "name": "Empty Finally Block",
+                            "shortDescription": {
+                                "text": "Empty Finally Block"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "bug"
+                                ],
+                                "severity": "Minor"
+                            }
                         },
                         {
-                            "id": "CS0036",
-                            "name": "Ldap Injection"
+                            "id": "CS0022",
+                            "name": "Empty Interface",
+                            "shortDescription": {
+                                "text": "Empty Interface"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "maintainability"
+                                ],
+                                "severity": "Minor"
+                            }
                         },
                         {
-                            "id": "CS0042",
-                            "name": "Missing Authorization"
-                        },
-                        {
-                            "id": "CS0048",
-                            "name": "Open Redirect"
-                        },
-                        {
-                            "id": "CS0050",
-                            "name": "Path Traversal"
-                        },
-                        {
-                            "id": "CS0054",
-                            "name": "Reflection With User Input"
-                        },
-                        {
-                            "id": "CS0056",
-                            "name": "Sensitive Data In Log"
-                        },
-                        {
-                            "id": "CS0058",
-                            "name": "Ssl Verification Disabled"
-                        },
-                        {
-                            "id": "CS0064",
-                            "name": "Timing Attack"
-                        },
-                        {
-                            "id": "CS0070",
-                            "name": "Weak Symmetric Encryption"
-                        },
-                        {
-                            "id": "CS0071",
-                            "name": "Xss Output"
-                        },
-                        {
-                            "id": "CS0072",
-                            "name": "Xxe Injection"
+                            "id": "CS0023",
+                            "name": "Equals Without Get Hash Code",
+                            "shortDescription": {
+                                "text": "Equals Without Get Hash Code"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "bug"
+                                ],
+                                "severity": "Major"
+                            }
                         },
                         {
                             "id": "CS0024",
-                            "name": "Excessive Class Length"
+                            "name": "Excessive Class Length",
+                            "shortDescription": {
+                                "text": "Excessive Class Length"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "maintainability"
+                                ],
+                                "severity": "Minor"
+                            }
+                        },
+                        {
+                            "id": "CS0025",
+                            "name": "Excessive Parameter List",
+                            "shortDescription": {
+                                "text": "Excessive Parameter List"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "maintainability"
+                                ],
+                                "severity": "Minor"
+                            }
+                        },
+                        {
+                            "id": "CS0026",
+                            "name": "Finalizer Without Suppress Finalize",
+                            "shortDescription": {
+                                "text": "Finalizer Without Suppress Finalize"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "bug"
+                                ],
+                                "severity": "Major"
+                            }
+                        },
+                        {
+                            "id": "CS0027",
+                            "name": "Fire And Forget",
+                            "shortDescription": {
+                                "text": "Fire And Forget"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "bug"
+                                ],
+                                "severity": "Major"
+                            }
+                        },
+                        {
+                            "id": "CS0028",
+                            "name": "First Or Default Without Null Check",
+                            "shortDescription": {
+                                "text": "First Or Default Without Null Check"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "bug"
+                                ],
+                                "severity": "Minor"
+                            }
+                        },
+                        {
+                            "id": "CS0029",
+                            "name": "Gc Collect",
+                            "shortDescription": {
+                                "text": "Gc Collect"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "maintainability"
+                                ],
+                                "severity": "Major"
+                            }
+                        },
+                        {
+                            "id": "CS0030",
+                            "name": "Hardcoded Credentials",
+                            "shortDescription": {
+                                "text": "Hardcoded Credentials"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "security"
+                                ],
+                                "severity": "Critical"
+                            }
+                        },
+                        {
+                            "id": "CS0031",
+                            "name": "Hardcoded Ip Address",
+                            "shortDescription": {
+                                "text": "Hardcoded Ip Address"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "maintainability"
+                                ],
+                                "severity": "Minor"
+                            }
+                        },
+                        {
+                            "id": "CS0032",
+                            "name": "Information Exposure",
+                            "shortDescription": {
+                                "text": "Information Exposure"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "security"
+                                ],
+                                "severity": "Major"
+                            }
+                        },
+                        {
+                            "id": "CS0033",
+                            "name": "Insecure Deserialization",
+                            "shortDescription": {
+                                "text": "Insecure Deserialization"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "security"
+                                ],
+                                "severity": "Blocker"
+                            }
+                        },
+                        {
+                            "id": "CS0034",
+                            "name": "Insecure Random",
+                            "shortDescription": {
+                                "text": "Insecure Random"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "security"
+                                ],
+                                "severity": "Major"
+                            }
+                        },
+                        {
+                            "id": "CS0035",
+                            "name": "Interface Naming Convention",
+                            "shortDescription": {
+                                "text": "Interface Naming Convention"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "maintainability"
+                                ],
+                                "severity": "Minor"
+                            }
+                        },
+                        {
+                            "id": "CS0036",
+                            "name": "Ldap Injection",
+                            "shortDescription": {
+                                "text": "Ldap Injection"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "security"
+                                ],
+                                "severity": "Critical"
+                            }
+                        },
+                        {
+                            "id": "CS0037",
+                            "name": "Linq Count Vs Any",
+                            "shortDescription": {
+                                "text": "Linq Count Vs Any"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "maintainability"
+                                ],
+                                "severity": "Minor"
+                            }
+                        },
+                        {
+                            "id": "CS0038",
+                            "name": "Local Variable Naming Convention",
+                            "shortDescription": {
+                                "text": "Local Variable Naming Convention"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "maintainability"
+                                ],
+                                "severity": "Info"
+                            }
+                        },
+                        {
+                            "id": "CS0039",
+                            "name": "Lock On This Or Public",
+                            "shortDescription": {
+                                "text": "Lock On This Or Public"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "bug"
+                                ],
+                                "severity": "Major"
+                            }
+                        },
+                        {
+                            "id": "CS0040",
+                            "name": "Method Naming Convention",
+                            "shortDescription": {
+                                "text": "Method Naming Convention"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "maintainability"
+                                ],
+                                "severity": "Minor"
+                            }
+                        },
+                        {
+                            "id": "CS0041",
+                            "name": "Method Too Long",
+                            "shortDescription": {
+                                "text": "Method Too Long"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "maintainability"
+                                ],
+                                "severity": "Minor"
+                            }
+                        },
+                        {
+                            "id": "CS0042",
+                            "name": "Missing Authorization",
+                            "shortDescription": {
+                                "text": "Missing Authorization"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "security"
+                                ],
+                                "severity": "Major"
+                            }
+                        },
+                        {
+                            "id": "CS0043",
+                            "name": "Missing Cancellation Token",
+                            "shortDescription": {
+                                "text": "Missing Cancellation Token"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "maintainability"
+                                ],
+                                "severity": "Minor"
+                            }
+                        },
+                        {
+                            "id": "CS0044",
+                            "name": "Multiple Return Points",
+                            "shortDescription": {
+                                "text": "Multiple Return Points"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "maintainability"
+                                ],
+                                "severity": "Minor"
+                            }
+                        },
+                        {
+                            "id": "CS0045",
+                            "name": "Nested Ternary",
+                            "shortDescription": {
+                                "text": "Nested Ternary"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "maintainability"
+                                ],
+                                "severity": "Minor"
+                            }
+                        },
+                        {
+                            "id": "CS0046",
+                            "name": "Nesting Depth",
+                            "shortDescription": {
+                                "text": "Nesting Depth"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "maintainability"
+                                ],
+                                "severity": "Major"
+                            }
+                        },
+                        {
+                            "id": "CS0047",
+                            "name": "No Console Write Line",
+                            "shortDescription": {
+                                "text": "No Console Write Line"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "maintainability"
+                                ],
+                                "severity": "Minor"
+                            }
+                        },
+                        {
+                            "id": "CS0048",
+                            "name": "Open Redirect",
+                            "shortDescription": {
+                                "text": "Open Redirect"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "security"
+                                ],
+                                "severity": "Major"
+                            }
+                        },
+                        {
+                            "id": "CS0049",
+                            "name": "Parameter Naming Convention",
+                            "shortDescription": {
+                                "text": "Parameter Naming Convention"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "maintainability"
+                                ],
+                                "severity": "Info"
+                            }
+                        },
+                        {
+                            "id": "CS0050",
+                            "name": "Path Traversal",
+                            "shortDescription": {
+                                "text": "Path Traversal"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "security"
+                                ],
+                                "severity": "Critical"
+                            }
+                        },
+                        {
+                            "id": "CS0051",
+                            "name": "Private Field Naming",
+                            "shortDescription": {
+                                "text": "Private Field Naming"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "maintainability"
+                                ],
+                                "severity": "Info"
+                            }
+                        },
+                        {
+                            "id": "CS0052",
+                            "name": "Property Naming Convention",
+                            "shortDescription": {
+                                "text": "Property Naming Convention"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "maintainability"
+                                ],
+                                "severity": "Info"
+                            }
+                        },
+                        {
+                            "id": "CS0053",
+                            "name": "Public Field",
+                            "shortDescription": {
+                                "text": "Public Field"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "maintainability"
+                                ],
+                                "severity": "Minor"
+                            }
+                        },
+                        {
+                            "id": "CS0054",
+                            "name": "Reflection With User Input",
+                            "shortDescription": {
+                                "text": "Reflection With User Input"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "security"
+                                ],
+                                "severity": "Critical"
+                            }
+                        },
+                        {
+                            "id": "CS0055",
+                            "name": "Regex In Loop",
+                            "shortDescription": {
+                                "text": "Regex In Loop"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "maintainability"
+                                ],
+                                "severity": "Minor"
+                            }
+                        },
+                        {
+                            "id": "CS0056",
+                            "name": "Sensitive Data In Log",
+                            "shortDescription": {
+                                "text": "Sensitive Data In Log"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "security"
+                                ],
+                                "severity": "Major"
+                            }
+                        },
+                        {
+                            "id": "CS0057",
+                            "name": "Sql Injection",
+                            "shortDescription": {
+                                "text": "Sql Injection"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "security"
+                                ],
+                                "severity": "Blocker"
+                            }
+                        },
+                        {
+                            "id": "CS0058",
+                            "name": "Ssl Verification Disabled",
+                            "shortDescription": {
+                                "text": "Ssl Verification Disabled"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "security"
+                                ],
+                                "severity": "Blocker"
+                            }
+                        },
+                        {
+                            "id": "CS0059",
+                            "name": "Static Mutable Collection",
+                            "shortDescription": {
+                                "text": "Static Mutable Collection"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "bug"
+                                ],
+                                "severity": "Major"
+                            }
+                        },
+                        {
+                            "id": "CS0060",
+                            "name": "String Concat In Loop",
+                            "shortDescription": {
+                                "text": "String Concat In Loop"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "maintainability"
+                                ],
+                                "severity": "Major"
+                            }
+                        },
+                        {
+                            "id": "CS0061",
+                            "name": "String Format With Interpolation",
+                            "shortDescription": {
+                                "text": "String Format With Interpolation"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "maintainability"
+                                ],
+                                "severity": "Info"
+                            }
+                        },
+                        {
+                            "id": "CS0062",
+                            "name": "String Null Or Empty Check",
+                            "shortDescription": {
+                                "text": "String Null Or Empty Check"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "maintainability"
+                                ],
+                                "severity": "Info"
+                            }
+                        },
+                        {
+                            "id": "CS0063",
+                            "name": "Thread Sleep In Async",
+                            "shortDescription": {
+                                "text": "Thread Sleep In Async"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "bug"
+                                ],
+                                "severity": "Major"
+                            }
+                        },
+                        {
+                            "id": "CS0064",
+                            "name": "Timing Attack",
+                            "shortDescription": {
+                                "text": "Timing Attack"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "security"
+                                ],
+                                "severity": "Critical"
+                            }
+                        },
+                        {
+                            "id": "CS0065",
+                            "name": "Todo Comment",
+                            "shortDescription": {
+                                "text": "Todo Comment"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "maintainability"
+                                ],
+                                "severity": "Info"
+                            }
+                        },
+                        {
+                            "id": "CS0066",
+                            "name": "To List Before Linq",
+                            "shortDescription": {
+                                "text": "To List Before Linq"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "maintainability"
+                                ],
+                                "severity": "Minor"
+                            }
+                        },
+                        {
+                            "id": "CS0067",
+                            "name": "Too Many Fields",
+                            "shortDescription": {
+                                "text": "Too Many Fields"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "maintainability"
+                                ],
+                                "severity": "Minor"
+                            }
+                        },
+                        {
+                            "id": "CS0068",
+                            "name": "Unsafe Code",
+                            "shortDescription": {
+                                "text": "Unsafe Code"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "security"
+                                ],
+                                "severity": "Major"
+                            }
+                        },
+                        {
+                            "id": "CS0069",
+                            "name": "Weak Hashing Algorithm",
+                            "shortDescription": {
+                                "text": "Weak Hashing Algorithm"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "security"
+                                ],
+                                "severity": "Critical"
+                            }
+                        },
+                        {
+                            "id": "CS0070",
+                            "name": "Weak Symmetric Encryption",
+                            "shortDescription": {
+                                "text": "Weak Symmetric Encryption"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "security"
+                                ],
+                                "severity": "Critical"
+                            }
+                        },
+                        {
+                            "id": "CS0071",
+                            "name": "Xss Output",
+                            "shortDescription": {
+                                "text": "Xss Output"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "security"
+                                ],
+                                "severity": "Critical"
+                            }
+                        },
+                        {
+                            "id": "CS0072",
+                            "name": "Xxe Injection",
+                            "shortDescription": {
+                                "text": "Xxe Injection"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "security"
+                                ],
+                                "severity": "Critical"
+                            }
                         }
                     ]
                 }
@@ -303,8 +951,13 @@
             "results": [
                 {
                     "ruleId": "CS0001",
+                    "level": "warning",
                     "message": {
                         "text": "Async Void Method"
+                    },
+                    "properties": {
+                        "category": "Bug",
+                        "originalSeverity": "Major"
                     },
                     "locations": [
                         {
@@ -321,8 +974,13 @@
                 },
                 {
                     "ruleId": "CS0002",
+                    "level": "warning",
                     "message": {
                         "text": "Avoid Catching Generic Exception"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Major"
                     },
                     "locations": [
                         {
@@ -339,8 +997,13 @@
                 },
                 {
                     "ruleId": "CS0004",
+                    "level": "note",
                     "message": {
                         "text": "Boolean Method Naming"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Info"
                     },
                     "locations": [
                         {
@@ -397,8 +1060,13 @@
                 },
                 {
                     "ruleId": "CS0007",
+                    "level": "note",
                     "message": {
                         "text": "Class Naming Convention"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
                     },
                     "locations": [
                         {
@@ -415,8 +1083,13 @@
                 },
                 {
                     "ruleId": "CS0010",
+                    "level": "note",
                     "message": {
                         "text": "Configure Await False"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
                     },
                     "locations": [
                         {
@@ -453,8 +1126,13 @@
                 },
                 {
                     "ruleId": "CS0011",
+                    "level": "note",
                     "message": {
                         "text": "Constant Naming Convention"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Info"
                     },
                     "locations": [
                         {
@@ -551,8 +1229,13 @@
                 },
                 {
                     "ruleId": "CS0015",
+                    "level": "warning",
                     "message": {
                         "text": "Cyclomatic Complexity"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Major"
                     },
                     "locations": [
                         {
@@ -569,8 +1252,13 @@
                 },
                 {
                     "ruleId": "CS0021",
+                    "level": "note",
                     "message": {
                         "text": "Empty Finally Block"
+                    },
+                    "properties": {
+                        "category": "Bug",
+                        "originalSeverity": "Minor"
                     },
                     "locations": [
                         {
@@ -587,8 +1275,13 @@
                 },
                 {
                     "ruleId": "CS0025",
+                    "level": "note",
                     "message": {
                         "text": "Excessive Parameter List"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
                     },
                     "locations": [
                         {
@@ -615,8 +1308,13 @@
                 },
                 {
                     "ruleId": "CS0030",
+                    "level": "error",
                     "message": {
                         "text": "Hardcoded Credentials"
+                    },
+                    "properties": {
+                        "category": "Vulnerability",
+                        "originalSeverity": "Critical"
                     },
                     "locations": [
                         {
@@ -653,8 +1351,13 @@
                 },
                 {
                     "ruleId": "CS0032",
+                    "level": "warning",
                     "message": {
                         "text": "Information Exposure"
+                    },
+                    "properties": {
+                        "category": "Vulnerability",
+                        "originalSeverity": "Major"
                     },
                     "locations": [
                         {
@@ -671,8 +1374,13 @@
                 },
                 {
                     "ruleId": "CS0034",
+                    "level": "warning",
                     "message": {
                         "text": "Insecure Random"
+                    },
+                    "properties": {
+                        "category": "Security Hotspot",
+                        "originalSeverity": "Major"
                     },
                     "locations": [
                         {
@@ -699,8 +1407,13 @@
                 },
                 {
                     "ruleId": "CS0040",
+                    "level": "note",
                     "message": {
                         "text": "Method Naming Convention"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
                     },
                     "locations": [
                         {
@@ -767,8 +1480,13 @@
                 },
                 {
                     "ruleId": "CS0041",
+                    "level": "note",
                     "message": {
                         "text": "Method Too Long"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
                     },
                     "locations": [
                         {
@@ -785,8 +1503,13 @@
                 },
                 {
                     "ruleId": "CS0043",
+                    "level": "note",
                     "message": {
                         "text": "Missing Cancellation Token"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
                     },
                     "locations": [
                         {
@@ -833,8 +1556,13 @@
                 },
                 {
                     "ruleId": "CS0047",
+                    "level": "note",
                     "message": {
                         "text": "No Console Write Line"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
                     },
                     "locations": [
                         {
@@ -981,8 +1709,13 @@
                 },
                 {
                     "ruleId": "CS0051",
+                    "level": "note",
                     "message": {
                         "text": "Private Field Naming"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Info"
                     },
                     "locations": [
                         {
@@ -1019,8 +1752,13 @@
                 },
                 {
                     "ruleId": "CS0053",
+                    "level": "note",
                     "message": {
                         "text": "Public Field"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
                     },
                     "locations": [
                         {
@@ -1087,8 +1825,13 @@
                 },
                 {
                     "ruleId": "CS0060",
+                    "level": "warning",
                     "message": {
                         "text": "String Concat In Loop"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Major"
                     },
                     "locations": [
                         {
@@ -1135,8 +1878,13 @@
                 },
                 {
                     "ruleId": "CS0069",
+                    "level": "error",
                     "message": {
                         "text": "Weak Hashing Algorithm"
+                    },
+                    "properties": {
+                        "category": "Vulnerability",
+                        "originalSeverity": "Critical"
                     },
                     "locations": [
                         {
@@ -1163,8 +1911,13 @@
                 },
                 {
                     "ruleId": "CS0003",
+                    "level": "note",
                     "message": {
                         "text": "Avoid Throwing Generic Exception"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
                     },
                     "locations": [
                         {
@@ -1201,8 +1954,13 @@
                 },
                 {
                     "ruleId": "CS0005",
+                    "level": "note",
                     "message": {
                         "text": "Boxing Value Type"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
                     },
                     "locations": [
                         {
@@ -1229,8 +1987,13 @@
                 },
                 {
                     "ruleId": "CS0006",
+                    "level": "warning",
                     "message": {
                         "text": "Catch And Rethrow"
+                    },
+                    "properties": {
+                        "category": "Bug",
+                        "originalSeverity": "Major"
                     },
                     "locations": [
                         {
@@ -1257,8 +2020,13 @@
                 },
                 {
                     "ruleId": "CS0009",
+                    "level": "note",
                     "message": {
                         "text": "Compare Floating Point"
+                    },
+                    "properties": {
+                        "category": "Bug",
+                        "originalSeverity": "Minor"
                     },
                     "locations": [
                         {
@@ -1285,8 +2053,13 @@
                 },
                 {
                     "ruleId": "CS0016",
+                    "level": "note",
                     "message": {
                         "text": "Dictionary Try Get Value"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
                     },
                     "locations": [
                         {
@@ -1323,8 +2096,13 @@
                 },
                 {
                     "ruleId": "CS0018",
+                    "level": "note",
                     "message": {
                         "text": "Duplicate Literal"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
                     },
                     "locations": [
                         {
@@ -1341,8 +2119,13 @@
                 },
                 {
                     "ruleId": "CS0022",
+                    "level": "note",
                     "message": {
                         "text": "Empty Interface"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
                     },
                     "locations": [
                         {
@@ -1369,8 +2152,13 @@
                 },
                 {
                     "ruleId": "CS0023",
+                    "level": "warning",
                     "message": {
                         "text": "Equals Without Get Hash Code"
+                    },
+                    "properties": {
+                        "category": "Bug",
+                        "originalSeverity": "Major"
                     },
                     "locations": [
                         {
@@ -1387,8 +2175,13 @@
                 },
                 {
                     "ruleId": "CS0026",
+                    "level": "warning",
                     "message": {
                         "text": "Finalizer Without Suppress Finalize"
+                    },
+                    "properties": {
+                        "category": "Bug",
+                        "originalSeverity": "Major"
                     },
                     "locations": [
                         {
@@ -1405,8 +2198,13 @@
                 },
                 {
                     "ruleId": "CS0027",
+                    "level": "warning",
                     "message": {
                         "text": "Fire And Forget"
+                    },
+                    "properties": {
+                        "category": "Bug",
+                        "originalSeverity": "Major"
                     },
                     "locations": [
                         {
@@ -1433,8 +2231,13 @@
                 },
                 {
                     "ruleId": "CS0028",
+                    "level": "note",
                     "message": {
                         "text": "First Or Default Without Null Check"
+                    },
+                    "properties": {
+                        "category": "Bug",
+                        "originalSeverity": "Minor"
                     },
                     "locations": [
                         {
@@ -1471,8 +2274,13 @@
                 },
                 {
                     "ruleId": "CS0029",
+                    "level": "warning",
                     "message": {
                         "text": "Gc Collect"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Major"
                     },
                     "locations": [
                         {
@@ -1499,8 +2307,13 @@
                 },
                 {
                     "ruleId": "CS0035",
+                    "level": "note",
                     "message": {
                         "text": "Interface Naming Convention"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
                     },
                     "locations": [
                         {
@@ -1527,8 +2340,13 @@
                 },
                 {
                     "ruleId": "CS0037",
+                    "level": "note",
                     "message": {
                         "text": "Linq Count Vs Any"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
                     },
                     "locations": [
                         {
@@ -1565,8 +2383,13 @@
                 },
                 {
                     "ruleId": "CS0038",
+                    "level": "note",
                     "message": {
                         "text": "Local Variable Naming Convention"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Info"
                     },
                     "locations": [
                         {
@@ -1603,8 +2426,13 @@
                 },
                 {
                     "ruleId": "CS0039",
+                    "level": "warning",
                     "message": {
                         "text": "Lock On This Or Public"
+                    },
+                    "properties": {
+                        "category": "Bug",
+                        "originalSeverity": "Major"
                     },
                     "locations": [
                         {
@@ -1631,8 +2459,13 @@
                 },
                 {
                     "ruleId": "CS0044",
+                    "level": "note",
                     "message": {
                         "text": "Multiple Return Points"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
                     },
                     "locations": [
                         {
@@ -1659,8 +2492,13 @@
                 },
                 {
                     "ruleId": "CS0045",
+                    "level": "note",
                     "message": {
                         "text": "Nested Ternary"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
                     },
                     "locations": [
                         {
@@ -1687,8 +2525,13 @@
                 },
                 {
                     "ruleId": "CS0046",
+                    "level": "warning",
                     "message": {
                         "text": "Nesting Depth"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Major"
                     },
                     "locations": [
                         {
@@ -1715,8 +2558,13 @@
                 },
                 {
                     "ruleId": "CS0049",
+                    "level": "note",
                     "message": {
                         "text": "Parameter Naming Convention"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Info"
                     },
                     "locations": [
                         {
@@ -1773,8 +2621,13 @@
                 },
                 {
                     "ruleId": "CS0052",
+                    "level": "note",
                     "message": {
                         "text": "Property Naming Convention"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Info"
                     },
                     "locations": [
                         {
@@ -1811,8 +2664,13 @@
                 },
                 {
                     "ruleId": "CS0055",
+                    "level": "note",
                     "message": {
                         "text": "Regex In Loop"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
                     },
                     "locations": [
                         {
@@ -1839,8 +2697,13 @@
                 },
                 {
                     "ruleId": "CS0057",
+                    "level": "error",
                     "message": {
                         "text": "Sql Injection"
+                    },
+                    "properties": {
+                        "category": "Vulnerability",
+                        "originalSeverity": "Blocker"
                     },
                     "locations": [
                         {
@@ -1907,8 +2770,13 @@
                 },
                 {
                     "ruleId": "CS0059",
+                    "level": "warning",
                     "message": {
                         "text": "Static Mutable Collection"
+                    },
+                    "properties": {
+                        "category": "Bug",
+                        "originalSeverity": "Major"
                     },
                     "locations": [
                         {
@@ -1945,8 +2813,13 @@
                 },
                 {
                     "ruleId": "CS0061",
+                    "level": "note",
                     "message": {
                         "text": "String Format With Interpolation"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Info"
                     },
                     "locations": [
                         {
@@ -1973,8 +2846,13 @@
                 },
                 {
                     "ruleId": "CS0062",
+                    "level": "note",
                     "message": {
                         "text": "String Null Or Empty Check"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Info"
                     },
                     "locations": [
                         {
@@ -2021,8 +2899,13 @@
                 },
                 {
                     "ruleId": "CS0063",
+                    "level": "warning",
                     "message": {
                         "text": "Thread Sleep In Async"
+                    },
+                    "properties": {
+                        "category": "Bug",
+                        "originalSeverity": "Major"
                     },
                     "locations": [
                         {
@@ -2049,8 +2932,13 @@
                 },
                 {
                     "ruleId": "CS0065",
+                    "level": "note",
                     "message": {
                         "text": "Todo Comment"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Info"
                     },
                     "locations": [
                         {
@@ -2077,8 +2965,13 @@
                 },
                 {
                     "ruleId": "CS0066",
+                    "level": "note",
                     "message": {
                         "text": "To List Before Linq"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
                     },
                     "locations": [
                         {
@@ -2115,8 +3008,13 @@
                 },
                 {
                     "ruleId": "CS0067",
+                    "level": "note",
                     "message": {
                         "text": "Too Many Fields"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
                     },
                     "locations": [
                         {
@@ -2143,8 +3041,13 @@
                 },
                 {
                     "ruleId": "CS0068",
+                    "level": "warning",
                     "message": {
                         "text": "Unsafe Code"
+                    },
+                    "properties": {
+                        "category": "Security Hotspot",
+                        "originalSeverity": "Major"
                     },
                     "locations": [
                         {
@@ -2161,8 +3064,13 @@
                 },
                 {
                     "ruleId": "CS0017",
+                    "level": "warning",
                     "message": {
                         "text": "Disposable Not In Using"
+                    },
+                    "properties": {
+                        "category": "Bug",
+                        "originalSeverity": "Major"
                     },
                     "locations": [
                         {
@@ -2339,8 +3247,13 @@
                 },
                 {
                     "ruleId": "CS0020",
+                    "level": "warning",
                     "message": {
                         "text": "Empty Catch Block"
+                    },
+                    "properties": {
+                        "category": "Bug",
+                        "originalSeverity": "Major"
                     },
                     "locations": [
                         {
@@ -2397,8 +3310,13 @@
                 },
                 {
                     "ruleId": "CS0008",
+                    "level": "error",
                     "message": {
                         "text": "Command Injection"
+                    },
+                    "properties": {
+                        "category": "Vulnerability",
+                        "originalSeverity": "Blocker"
                     },
                     "locations": [
                         {
@@ -2425,8 +3343,13 @@
                 },
                 {
                     "ruleId": "CS0012",
+                    "level": "warning",
                     "message": {
                         "text": "Cookie Http Only Missing"
+                    },
+                    "properties": {
+                        "category": "Security Hotspot",
+                        "originalSeverity": "Major"
                     },
                     "locations": [
                         {
@@ -2443,8 +3366,13 @@
                 },
                 {
                     "ruleId": "CS0013",
+                    "level": "warning",
                     "message": {
                         "text": "Cookie Secure Flag Missing"
+                    },
+                    "properties": {
+                        "category": "Security Hotspot",
+                        "originalSeverity": "Major"
                     },
                     "locations": [
                         {
@@ -2461,8 +3389,13 @@
                 },
                 {
                     "ruleId": "CS0014",
+                    "level": "error",
                     "message": {
                         "text": "Csrf Protection Missing"
+                    },
+                    "properties": {
+                        "category": "Vulnerability",
+                        "originalSeverity": "Critical"
                     },
                     "locations": [
                         {
@@ -2489,8 +3422,13 @@
                 },
                 {
                     "ruleId": "CS0019",
+                    "level": "error",
                     "message": {
                         "text": "ECB Mode Encryption"
+                    },
+                    "properties": {
+                        "category": "Vulnerability",
+                        "originalSeverity": "Critical"
                     },
                     "locations": [
                         {
@@ -2507,8 +3445,13 @@
                 },
                 {
                     "ruleId": "CS0031",
+                    "level": "note",
                     "message": {
                         "text": "Hardcoded Ip Address"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
                     },
                     "locations": [
                         {
@@ -2525,8 +3468,13 @@
                 },
                 {
                     "ruleId": "CS0033",
+                    "level": "error",
                     "message": {
                         "text": "Insecure Deserialization"
+                    },
+                    "properties": {
+                        "category": "Vulnerability",
+                        "originalSeverity": "Blocker"
                     },
                     "locations": [
                         {
@@ -2543,8 +3491,13 @@
                 },
                 {
                     "ruleId": "CS0036",
+                    "level": "error",
                     "message": {
                         "text": "Ldap Injection"
+                    },
+                    "properties": {
+                        "category": "Vulnerability",
+                        "originalSeverity": "Critical"
                     },
                     "locations": [
                         {
@@ -2561,8 +3514,13 @@
                 },
                 {
                     "ruleId": "CS0042",
+                    "level": "warning",
                     "message": {
                         "text": "Missing Authorization"
+                    },
+                    "properties": {
+                        "category": "Security Hotspot",
+                        "originalSeverity": "Major"
                     },
                     "locations": [
                         {
@@ -2609,8 +3567,13 @@
                 },
                 {
                     "ruleId": "CS0048",
+                    "level": "warning",
                     "message": {
                         "text": "Open Redirect"
+                    },
+                    "properties": {
+                        "category": "Vulnerability",
+                        "originalSeverity": "Major"
                     },
                     "locations": [
                         {
@@ -2627,8 +3590,13 @@
                 },
                 {
                     "ruleId": "CS0050",
+                    "level": "error",
                     "message": {
                         "text": "Path Traversal"
+                    },
+                    "properties": {
+                        "category": "Vulnerability",
+                        "originalSeverity": "Critical"
                     },
                     "locations": [
                         {
@@ -2645,8 +3613,13 @@
                 },
                 {
                     "ruleId": "CS0054",
+                    "level": "error",
                     "message": {
                         "text": "Reflection With User Input"
+                    },
+                    "properties": {
+                        "category": "Vulnerability",
+                        "originalSeverity": "Critical"
                     },
                     "locations": [
                         {
@@ -2683,8 +3656,13 @@
                 },
                 {
                     "ruleId": "CS0056",
+                    "level": "warning",
                     "message": {
                         "text": "Sensitive Data In Log"
+                    },
+                    "properties": {
+                        "category": "Vulnerability",
+                        "originalSeverity": "Major"
                     },
                     "locations": [
                         {
@@ -2731,8 +3709,13 @@
                 },
                 {
                     "ruleId": "CS0058",
+                    "level": "error",
                     "message": {
                         "text": "Ssl Verification Disabled"
+                    },
+                    "properties": {
+                        "category": "Vulnerability",
+                        "originalSeverity": "Blocker"
                     },
                     "locations": [
                         {
@@ -2749,8 +3732,13 @@
                 },
                 {
                     "ruleId": "CS0064",
+                    "level": "error",
                     "message": {
                         "text": "Timing Attack"
+                    },
+                    "properties": {
+                        "category": "Vulnerability",
+                        "originalSeverity": "Critical"
                     },
                     "locations": [
                         {
@@ -2777,8 +3765,13 @@
                 },
                 {
                     "ruleId": "CS0070",
+                    "level": "error",
                     "message": {
                         "text": "Weak Symmetric Encryption"
+                    },
+                    "properties": {
+                        "category": "Vulnerability",
+                        "originalSeverity": "Critical"
                     },
                     "locations": [
                         {
@@ -2805,8 +3798,13 @@
                 },
                 {
                     "ruleId": "CS0071",
+                    "level": "error",
                     "message": {
                         "text": "Xss Output"
+                    },
+                    "properties": {
+                        "category": "Vulnerability",
+                        "originalSeverity": "Critical"
                     },
                     "locations": [
                         {
@@ -2823,8 +3821,13 @@
                 },
                 {
                     "ruleId": "CS0072",
+                    "level": "error",
                     "message": {
                         "text": "Xxe Injection"
+                    },
+                    "properties": {
+                        "category": "Vulnerability",
+                        "originalSeverity": "Critical"
                     },
                     "locations": [
                         {
@@ -2851,8 +3854,13 @@
                 },
                 {
                     "ruleId": "CS0024",
+                    "level": "note",
                     "message": {
                         "text": "Excessive Class Length"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
                     },
                     "locations": [
                         {
