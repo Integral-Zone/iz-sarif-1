@@ -1,0 +1,17 @@
+#%RAML 1.0 ResourceType
+
+description: Collection of methods
+get?:
+  displayName: Get a list of <<resourcePathName>>
+  responses:
+    200:
+      body:
+        application/json:
+          type: <<resourcePathName | !singularize>>
+post?:
+  displayName: create a new <<resourcePathName | !singularize>>
+  responses: 
+    201:
+      body: 
+        application/json:
+          type: <<resourcePathName | !singularize>>

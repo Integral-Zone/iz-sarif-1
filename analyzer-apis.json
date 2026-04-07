@@ -1,0 +1,5 @@
+{
+  "apis": [
+    "src/main/resources/api/order-service-api.raml"
+  ]
+}

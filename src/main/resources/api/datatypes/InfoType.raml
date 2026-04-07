@@ -1,0 +1,19 @@
+#%RAML 1.0 DataType
+type: object
+properties:
+  o_CustLicStateId:
+    type: string
+    minLength: 3
+    maxLength: 10
+  o_CustStateLicNum:
+    pattern: \d{3}-\w{12}
+    type: string
+    description: o_CustStateLicNum
+    minLength: 3
+    maxLength: 3
+    required: false
+  o_CustDeaNum:
+    type: string
+    description: o_CustDeaNum
+    minLength: 3
+    maxLength: 10

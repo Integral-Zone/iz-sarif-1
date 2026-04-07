@@ -1,0 +1,11 @@
+#%RAML 1.0 SecurityScheme
+type: Pass Through
+displayName: Pass Through scheme
+description: Apply the pass through security policy to resource methods for authenticating API requests
+describedBy: 
+  queryParameters:
+    query:
+      type: string
+  headers:
+    api_key:
+      type: string

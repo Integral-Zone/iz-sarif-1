@@ -1,0 +1,53 @@
+<mule xmlns:batch="http://www.mulesoft.org/schema/mule/batch" xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:db="http://www.mulesoft.org/schema/mule/db" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns:salesforce="http://www.mulesoft.org/schema/mule/salesforce" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd http://www.mulesoft.org/schema/mule/db http://www.mulesoft.org/schema/mule/db/current/mule-db.xsd http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd   http://www.mulesoft.org/schema/mule/salesforce http://www.mulesoft.org/schema/mule/salesforce/current/mule-salesforce.xsd
+http://www.mulesoft.org/schema/mule/batch http://www.mulesoft.org/schema/mule/batch/current/mule-batch.xsd">
+  <http:request-config doc:id="3e7a0ef7-7600-4449-9f1a-38c6cd8b9916" doc:name="HTTP Request configuration" name="HTTP_Request_configuration">
+    <http:request-connection host="#[localhost]" port="8080" protocol="HTTPS">
+      <!--  <http:authentication >
+				<http:basic-authentication />
+			</http:authentication>   -->
+    </http:request-connection>
+  </http:request-config>
+  <http:request-config basePath="/sapi" doc:id="38e936a6-95b8-4edc-ac96-ec60d3586a51" doc:name="HTTP Request configuration" name="HTTP_Request_configuration1">
+    <http:request-connection host="localhost" port="80" />
+  </http:request-config>
+  <flow doc:id="40330eae-55b8-41bc-b049-35ca587a04b0" name="getOrders">
+    <logger category="application.default" doc:id="a3ba69a9-3daa-4d2d-b91c-f192fe180989" doc:name="Logger" level="INFO" message="Fetching Orders" />
+    <db:select doc:id="58053efd-f639-4cf2-bc35-02076ee9818f" doc:name="Select">
+      <db:sql>
+        <![CDATA[select * from orders]]>
+      </db:sql>
+    </db:select>
+    <ee:transform doc:id="254fef47-cdb1-4658-9588-f21e358ab46d" doc:name="Transform Message">
+      <ee:message>
+        <ee:set-payload>
+          <![CDATA[%dw 2.0
+output application/java
+---
+{
+	a: 1
+}]]>
+        </ee:set-payload>
+      </ee:message>
+    </ee:transform>
+    <until-successful doc:id="fc5f3aea-3be4-4f9b-b0bc-edf2b6c45c91" doc:name="Retry On Error" maxRetries="${app.max.retries}" millisBetweenRetries="${app.retry.delay}">
+      <http:request config-ref="HTTP_Request_configuration" doc:id="7608ca95-117e-416f-b368-1b0eded173e4" doc:name="Request" method="GET">
+        <!-- 	<http:headers ><![CDATA[#[output application/java
+-&#45;&#45;
+{
+	"Authorization" : #[vars.auth]
+}]]]></http:headers>  -->
+      </http:request>
+    </until-successful>
+  </flow>
+  <flow name="order-orders-sapi-config-impl">
+    <logger doc:id="9b14d646-e676-4d6a-87d7-c2a65ba9c660" doc:name="Logger" level="INFO" />
+    <set-payload doc:id="ebfcfcae-a1b5-43a0-9103-c4fc58361e71" doc:name="Set Payload" value="#[payload]" />
+  </flow>
+	<flow name="orders-sapi-implFlow" doc:id="ccb04966-0e86-4fd7-92b7-65343ba12c78" >
+		<batch:job jobName="orders-sapi-implBatch_Job" doc:id="0c23e262-283b-4c19-9aaa-6f81b070dede" maxFailedRecords="10">
+			<batch:process-records >
+				<batch:step name="Batch_Step" doc:id="cc9e93ba-831a-4067-85e8-92fa8f1c5035" />
+			</batch:process-records>
+		</batch:job>
+	</flow>
+</mule>

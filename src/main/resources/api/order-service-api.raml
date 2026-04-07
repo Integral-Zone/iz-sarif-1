@@ -1,0 +1,41 @@
+#%RAML 1.0
+title: Sample Service 
+version: v1
+mediaType: application/json
+protocols: 
+  - HTTPS
+baseUri: https://anypoint.mulesoft.com/mocking/api
+  
+securitySchemes: 
+  basicAuth: !include exchange_modules/3188bfd4-ab3f-49ab-823e-cb717e6b7421/common-api-fragments/1.0.3/securityschemes/basicAuthSecurityScheme.raml
+  
+securedBy: [basicAuth]
+
+traits: 
+  headerTrait: !include exchange_modules/3188bfd4-ab3f-49ab-823e-cb717e6b7421/common-api-fragments/1.0.3/traits/headerTrait.raml
+resourceTypes: 
+  methodCollection: !include exchange_modules/3188bfd4-ab3f-49ab-823e-cb717e6b7421/common-api-fragments/1.0.3/resourcetypes/methodCollection.raml
+types: 
+    RequestType:   !include dataTypes/RequestType.raml
+    ResponseType:  !include dataTypes/ResponseType.raml
+                 
+
+/validates:
+  /data:
+    post:
+      displayName: Sample Service 
+      description: Sample Operation
+      is:
+        - headerTrait
+      body:
+        application/json:
+          type: RequestType
+          
+      responses:
+        200:
+          body:
+            application/json1:
+              type: object
+              properties:
+                medproResponse:
+                  type: ResponseType

@@ -1,0 +1,28 @@
+#%RAML 1.0 Trait
+displayName: Common Error Trait
+
+responses: 
+  400:
+    body: 
+      application/json:
+        type: !include ../datatypes/error.raml
+  404:
+    body: 
+      application/json:
+        type: !include ../datatypes/error.raml
+  405:
+    body: 
+      application/json:
+        type: !include ../datatypes/error.raml
+  406:
+    body: 
+      application/json:
+        type: !include ../datatypes/error.raml
+  415:
+    body: 
+      application/json:
+        type: !include ../datatypes/error.raml
+  500:
+    body: 
+      application/json:
+        type: !include ../datatypes/error.raml   

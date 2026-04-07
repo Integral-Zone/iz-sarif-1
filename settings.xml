@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+	<pluginGroups>
+	</pluginGroups>
+
+	<proxies>
+	</proxies>
+
+	<servers>
+		<server>
+			<id>exchange</id>
+			<username>msch082018</username>
+			<password>Test@123</password>
+        </server>
+	</servers>
+
+	<mirrors>
+	
+	</mirrors>
+
+	
+	<profiles>
+		<profile>
+			<id>Mule</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<repositories>
+				<repository>
+					<id>MuleRepository</id>
+					<name>MuleRepository</name>
+					<url>https://repository.mulesoft.org/nexus-ee/content/repositories/releases-ee/</url>
+					<layout>default</layout>
+					<releases>
+						<enabled>true</enabled>
+					</releases>
+					<snapshots>
+						<enabled>true</enabled>
+					</snapshots>
+				</repository>
+                <repository>
+					<id>iz-maven-repo</id>
+                    <name>IZ Maven Repo</name>
+                    <url>https://artifacts.integralzone.com/releases</url>
+				</repository>
+			</repositories>
+            <pluginRepositories>
+                <pluginRepository>
+                    <id>iz-maven-plugin-repo</id>
+                    <url>https://artifacts.integralzone.com/releases</url>
+                </pluginRepository>
+            </pluginRepositories>
+		</profile>
+	</profiles>
+</settings>
+

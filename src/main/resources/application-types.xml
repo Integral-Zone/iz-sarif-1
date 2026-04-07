@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<types:mule xmlns:types="http://www.mulesoft.org/schema/mule/types">
+  <types:catalog>
+    <types:type name="samplle_json" format="json">
+      <types:shape format="weave" example="test.json"><![CDATA[%dw 2.0
+
+type samplle_json = {|
+  masterOrganizationId: String, 
+  organizationId: String, 
+  id: Number {"typeId": "int"}, 
+  name: String, 
+  description: Null, 
+  limits: Array<{|    maximumRequests: Number {"typeId": "int"},     timePeriodInMilliseconds: Number {"typeId": "int"},     visible: Boolean  |}>, 
+  status: String, 
+  autoApprove: Boolean, 
+  applicationCount: Number {"typeId": "int"}, 
+  apiId: Number {"typeId": "int"}
+|} {"example": "{\\\"masterOrganizationId\\\":\\\"xxx\\\",\\\"organizationId\\\":\\\"xxx\\\",\\\"id\\\":2075526,\\\"name\\\":\\\"Tier 1\\\",\\\"description\\\":null,\\\"limits\\\":[{\\\"maximumRequests\\\":1,\\\"timePeriodInMilliseconds\\\":10000,\\\"visible\\\":true},{\\\"maximumRequests\\\":2,\\\"timePeriodInMilliseconds\\\":45000,\\\"visible\\\":true}],\\\"status\\\":\\\"ACTIVE\\\",\\\"autoApprove\\\":false,\\\"applicationCount\\\":0,\\\"apiId\\\":20070196}"}
+
+]]></types:shape>
+    </types:type>
+    <types:type name="sample2" format="json">
+      <types:shape format="weave" example="test.json"><![CDATA[%dw 2.0
+
+type sample2 = {|
+  masterOrganizationId: String, 
+  organizationId: String, 
+  id: Number {"typeId": "int"}, 
+  name: String, 
+  description: Null, 
+  limits: Array<{|    maximumRequests: Number {"typeId": "int"},     timePeriodInMilliseconds: Number {"typeId": "int"},     visible: Boolean  |}>, 
+  status: String, 
+  autoApprove: Boolean, 
+  applicationCount: Number {"typeId": "int"}, 
+  apiId: Number {"typeId": "int"}
+|} {"example": "{\\\"masterOrganizationId\\\":\\\"xxx\\\",\\\"organizationId\\\":\\\"xxx\\\",\\\"id\\\":2075526,\\\"name\\\":\\\"Tier 1\\\",\\\"description\\\":null,\\\"limits\\\":[{\\\"maximumRequests\\\":1,\\\"timePeriodInMilliseconds\\\":10000,\\\"visible\\\":true},{\\\"maximumRequests\\\":2,\\\"timePeriodInMilliseconds\\\":45000,\\\"visible\\\":true}],\\\"status\\\":\\\"ACTIVE\\\",\\\"autoApprove\\\":false,\\\"applicationCount\\\":0,\\\"apiId\\\":20070196}"}
+
+]]></types:shape>
+    </types:type>
+  </types:catalog>
+  <types:enrichment select="#254fef47-cdb1-4658-9588-f21e358ab46d">
+    <types:processor-declaration>
+      <types:input-event>
+        <types:message>
+          <types:payload type="sample2"/>
+          <types:attributes type="sample2"/>
+        </types:message>
+      </types:input-event>
+    </types:processor-declaration>
+  </types:enrichment>
+</types:mule>

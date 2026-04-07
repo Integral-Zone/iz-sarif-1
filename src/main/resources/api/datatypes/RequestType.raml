@@ -1,0 +1,21 @@
+#%RAML 1.0 DataType
+type: object
+properties:
+  id:
+    type: number
+    required: false
+  name:
+    description: name
+    minLength: 1
+    maxLength: 10
+    required: true
+  address:
+    type: string
+    description: v_stateLicNum
+    minLength: 3
+    maxLength: 10
+  postcode:
+    type: string
+    minLength: 3
+    maxLength: 10
+    required: false

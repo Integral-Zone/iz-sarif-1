@@ -1,0 +1,19 @@
+#%RAML 1.0 Trait
+responses:
+  200:
+    body:
+      application/json:
+        type: object
+        properties:
+          startAt: 
+            type: number
+            description: Result set pagenation starts here. 
+          maxResults: 
+            type: number
+            description: Maximum number of results to fetch starting the index from startAt attribute.   
+          total: 
+            type: number
+            description: total results available in the result set.   
+          isLast: 
+            type: boolean
+            description: This is set to true, if the associated image is the last image in the result set. When there are still images left to iterate, this is set to false. 
