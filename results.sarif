@@ -5,7 +5,7 @@
         {
             "tool": {
                 "driver": {
-                    "name": "Falcon Analyzer",
+                    "name": "Falcon Scan",
                     "version": "1.0",
                     "informationUri": "https://integralzone.com/iz-analyzer",
                     "rules": [
@@ -1015,46 +1015,6 @@
                                     "startLine": 100
                                 }
                             }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "src/BestPracticesSamples.cs"
-                                },
-                                "region": {
-                                    "startLine": 43
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "src/BestPracticesSamples.cs"
-                                },
-                                "region": {
-                                    "startLine": 565
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "src/UserRepository.cs"
-                                },
-                                "region": {
-                                    "startLine": 173
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "src/SecuritySamples.cs"
-                                },
-                                "region": {
-                                    "startLine": 258
-                                }
-                            }
                         }
                     ]
                 },
@@ -1101,26 +1061,6 @@
                                     "startLine": 54
                                 }
                             }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "src/BestPracticesSamples.cs"
-                                },
-                                "region": {
-                                    "startLine": 459
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "src/BestPracticesSamples.cs"
-                                },
-                                "region": {
-                                    "startLine": 462
-                                }
-                            }
                         }
                     ]
                 },
@@ -1144,7 +1084,20 @@
                                     "startLine": 21
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0011",
+                    "level": "note",
+                    "message": {
+                        "text": "Constant Naming Convention"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Info"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -1154,7 +1107,20 @@
                                     "startLine": 22
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0011",
+                    "level": "note",
+                    "message": {
+                        "text": "Constant Naming Convention"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Info"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -1162,66 +1128,6 @@
                                 },
                                 "region": {
                                     "startLine": 23
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "src/UserRepository.cs"
-                                },
-                                "region": {
-                                    "startLine": 93
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "src/UserRepository.cs"
-                                },
-                                "region": {
-                                    "startLine": 106
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "src/UserRepository.cs"
-                                },
-                                "region": {
-                                    "startLine": 117
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "src/UserRepository.cs"
-                                },
-                                "region": {
-                                    "startLine": 156
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "src/UserRepository.cs"
-                                },
-                                "region": {
-                                    "startLine": 197
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "src/UserRepository.cs"
-                                },
-                                "region": {
-                                    "startLine": 242
                                 }
                             }
                         }
@@ -1293,7 +1199,20 @@
                                     "startLine": 26
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0025",
+                    "level": "note",
+                    "message": {
+                        "text": "Excessive Parameter List"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -1326,7 +1245,20 @@
                                     "startLine": 16
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0030",
+                    "level": "error",
+                    "message": {
+                        "text": "Hardcoded Credentials"
+                    },
+                    "properties": {
+                        "category": "Vulnerability",
+                        "originalSeverity": "Critical"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -1336,7 +1268,20 @@
                                     "startLine": 17
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0030",
+                    "level": "error",
+                    "message": {
+                        "text": "Hardcoded Credentials"
+                    },
+                    "properties": {
+                        "category": "Vulnerability",
+                        "originalSeverity": "Critical"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -1392,7 +1337,20 @@
                                     "startLine": 187
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0034",
+                    "level": "warning",
+                    "message": {
+                        "text": "Insecure Random"
+                    },
+                    "properties": {
+                        "category": "Security Hotspot",
+                        "originalSeverity": "Major"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -1425,7 +1383,20 @@
                                     "startLine": 38
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0040",
+                    "level": "note",
+                    "message": {
+                        "text": "Method Naming Convention"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -1435,7 +1406,20 @@
                                     "startLine": 44
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0040",
+                    "level": "note",
+                    "message": {
+                        "text": "Method Naming Convention"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -1445,7 +1429,20 @@
                                     "startLine": 51
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0040",
+                    "level": "note",
+                    "message": {
+                        "text": "Method Naming Convention"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -1455,7 +1452,20 @@
                                     "startLine": 58
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0040",
+                    "level": "note",
+                    "message": {
+                        "text": "Method Naming Convention"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -1465,7 +1475,20 @@
                                     "startLine": 76
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0040",
+                    "level": "note",
+                    "message": {
+                        "text": "Method Naming Convention"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -1521,36 +1544,6 @@
                                     "startLine": 51
                                 }
                             }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "src/BestPracticesSamples.cs"
-                                },
-                                "region": {
-                                    "startLine": 321
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "src/BestPracticesSamples.cs"
-                                },
-                                "region": {
-                                    "startLine": 328
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "src/BestPracticesSamples.cs"
-                                },
-                                "region": {
-                                    "startLine": 455
-                                }
-                            }
                         }
                     ]
                 },
@@ -1574,7 +1567,20 @@
                                     "startLine": 40
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0047",
+                    "level": "note",
+                    "message": {
+                        "text": "No Console Write Line"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -1584,7 +1590,20 @@
                                     "startLine": 46
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0047",
+                    "level": "note",
+                    "message": {
+                        "text": "No Console Write Line"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -1594,7 +1613,20 @@
                                     "startLine": 53
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0047",
+                    "level": "note",
+                    "message": {
+                        "text": "No Console Write Line"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -1602,106 +1634,6 @@
                                 },
                                 "region": {
                                     "startLine": 67
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "src/BestPracticesSamples.cs"
-                                },
-                                "region": {
-                                    "startLine": 241
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "src/BestPracticesSamples.cs"
-                                },
-                                "region": {
-                                    "startLine": 257
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "src/BestPracticesSamples.cs"
-                                },
-                                "region": {
-                                    "startLine": 265
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "src/BestPracticesSamples.cs"
-                                },
-                                "region": {
-                                    "startLine": 382
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "src/BestPracticesSamples.cs"
-                                },
-                                "region": {
-                                    "startLine": 391
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "src/BestPracticesSamples.cs"
-                                },
-                                "region": {
-                                    "startLine": 512
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "src/BestPracticesSamples.cs"
-                                },
-                                "region": {
-                                    "startLine": 529
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "src/BestPracticesSamples.cs"
-                                },
-                                "region": {
-                                    "startLine": 549
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "src/BestPracticesSamples.cs"
-                                },
-                                "region": {
-                                    "startLine": 657
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "src/BestPracticesSamples.cs"
-                                },
-                                "region": {
-                                    "startLine": 663
                                 }
                             }
                         }
@@ -1727,7 +1659,20 @@
                                     "startLine": 16
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0051",
+                    "level": "note",
+                    "message": {
+                        "text": "Private Field Naming"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Info"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -1737,7 +1682,20 @@
                                     "startLine": 17
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0051",
+                    "level": "note",
+                    "message": {
+                        "text": "Private Field Naming"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Info"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -1770,7 +1728,20 @@
                                     "startLine": 12
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0053",
+                    "level": "note",
+                    "message": {
+                        "text": "Public Field"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -1778,46 +1749,6 @@
                                 },
                                 "region": {
                                     "startLine": 13
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "src/BestPracticesSamples.cs"
-                                },
-                                "region": {
-                                    "startLine": 362
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "src/BestPracticesSamples.cs"
-                                },
-                                "region": {
-                                    "startLine": 365
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "src/BestPracticesSamples.cs"
-                                },
-                                "region": {
-                                    "startLine": 368
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "src/BestPracticesSamples.cs"
-                                },
-                                "region": {
-                                    "startLine": 375
                                 }
                             }
                         }
@@ -1843,7 +1774,20 @@
                                     "startLine": 81
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0060",
+                    "level": "warning",
+                    "message": {
+                        "text": "String Concat In Loop"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Major"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -1853,7 +1797,20 @@
                                     "startLine": 87
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0060",
+                    "level": "warning",
+                    "message": {
+                        "text": "String Concat In Loop"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Major"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -1863,7 +1820,20 @@
                                     "startLine": 93
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0060",
+                    "level": "warning",
+                    "message": {
+                        "text": "String Concat In Loop"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Major"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -1896,7 +1866,20 @@
                                     "startLine": 172
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0069",
+                    "level": "error",
+                    "message": {
+                        "text": "Weak Hashing Algorithm"
+                    },
+                    "properties": {
+                        "category": "Vulnerability",
+                        "originalSeverity": "Critical"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -1929,7 +1912,20 @@
                                     "startLine": 94
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0003",
+                    "level": "note",
+                    "message": {
+                        "text": "Avoid Throwing Generic Exception"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -1939,7 +1935,20 @@
                                     "startLine": 103
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0003",
+                    "level": "note",
+                    "message": {
+                        "text": "Avoid Throwing Generic Exception"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -1947,6 +1956,52 @@
                                 },
                                 "region": {
                                     "startLine": 110
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0004",
+                    "level": "note",
+                    "message": {
+                        "text": "Boolean Method Naming"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Info"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "src/BestPracticesSamples.cs"
+                                },
+                                "region": {
+                                    "startLine": 43
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0004",
+                    "level": "note",
+                    "message": {
+                        "text": "Boolean Method Naming"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Info"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "src/BestPracticesSamples.cs"
+                                },
+                                "region": {
+                                    "startLine": 565
                                 }
                             }
                         }
@@ -1972,7 +2027,20 @@
                                     "startLine": 342
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0005",
+                    "level": "note",
+                    "message": {
+                        "text": "Boxing Value Type"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -2005,7 +2073,20 @@
                                     "startLine": 67
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0006",
+                    "level": "warning",
+                    "message": {
+                        "text": "Catch And Rethrow"
+                    },
+                    "properties": {
+                        "category": "Bug",
+                        "originalSeverity": "Major"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -2038,7 +2119,20 @@
                                     "startLine": 121
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0009",
+                    "level": "note",
+                    "message": {
+                        "text": "Compare Floating Point"
+                    },
+                    "properties": {
+                        "category": "Bug",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -2046,6 +2140,52 @@
                                 },
                                 "region": {
                                     "startLine": 131
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0010",
+                    "level": "note",
+                    "message": {
+                        "text": "Configure Await False"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "src/BestPracticesSamples.cs"
+                                },
+                                "region": {
+                                    "startLine": 459
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0010",
+                    "level": "note",
+                    "message": {
+                        "text": "Configure Await False"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "src/BestPracticesSamples.cs"
+                                },
+                                "region": {
+                                    "startLine": 462
                                 }
                             }
                         }
@@ -2071,7 +2211,20 @@
                                     "startLine": 144
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0016",
+                    "level": "note",
+                    "message": {
+                        "text": "Dictionary Try Get Value"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -2081,7 +2234,20 @@
                                     "startLine": 155
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0016",
+                    "level": "note",
+                    "message": {
+                        "text": "Dictionary Try Get Value"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -2137,7 +2303,20 @@
                                     "startLine": 16
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0022",
+                    "level": "note",
+                    "message": {
+                        "text": "Empty Interface"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -2216,7 +2395,20 @@
                                     "startLine": 422
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0027",
+                    "level": "warning",
+                    "message": {
+                        "text": "Fire And Forget"
+                    },
+                    "properties": {
+                        "category": "Bug",
+                        "originalSeverity": "Major"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -2249,7 +2441,20 @@
                                     "startLine": 173
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0028",
+                    "level": "note",
+                    "message": {
+                        "text": "First Or Default Without Null Check"
+                    },
+                    "properties": {
+                        "category": "Bug",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -2259,7 +2464,20 @@
                                     "startLine": 180
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0028",
+                    "level": "note",
+                    "message": {
+                        "text": "First Or Default Without Null Check"
+                    },
+                    "properties": {
+                        "category": "Bug",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -2292,7 +2510,20 @@
                                     "startLine": 276
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0029",
+                    "level": "warning",
+                    "message": {
+                        "text": "Gc Collect"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Major"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -2325,7 +2556,20 @@
                                     "startLine": 24
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0035",
+                    "level": "note",
+                    "message": {
+                        "text": "Interface Naming Convention"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -2358,7 +2602,20 @@
                                     "startLine": 631
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0037",
+                    "level": "note",
+                    "message": {
+                        "text": "Linq Count Vs Any"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -2368,7 +2625,20 @@
                                     "startLine": 638
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0037",
+                    "level": "note",
+                    "message": {
+                        "text": "Linq Count Vs Any"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -2401,7 +2671,20 @@
                                     "startLine": 546
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0038",
+                    "level": "note",
+                    "message": {
+                        "text": "Local Variable Naming Convention"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Info"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -2411,7 +2694,20 @@
                                     "startLine": 547
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0038",
+                    "level": "note",
+                    "message": {
+                        "text": "Local Variable Naming Convention"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Info"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -2444,7 +2740,20 @@
                                     "startLine": 380
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0039",
+                    "level": "warning",
+                    "message": {
+                        "text": "Lock On This Or Public"
+                    },
+                    "properties": {
+                        "category": "Bug",
+                        "originalSeverity": "Major"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -2452,6 +2761,75 @@
                                 },
                                 "region": {
                                     "startLine": 389
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0043",
+                    "level": "note",
+                    "message": {
+                        "text": "Missing Cancellation Token"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "src/BestPracticesSamples.cs"
+                                },
+                                "region": {
+                                    "startLine": 321
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0043",
+                    "level": "note",
+                    "message": {
+                        "text": "Missing Cancellation Token"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "src/BestPracticesSamples.cs"
+                                },
+                                "region": {
+                                    "startLine": 328
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0043",
+                    "level": "note",
+                    "message": {
+                        "text": "Missing Cancellation Token"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "src/BestPracticesSamples.cs"
+                                },
+                                "region": {
+                                    "startLine": 455
                                 }
                             }
                         }
@@ -2477,7 +2855,20 @@
                                     "startLine": 473
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0044",
+                    "level": "note",
+                    "message": {
+                        "text": "Multiple Return Points"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -2510,7 +2901,20 @@
                                     "startLine": 560
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0045",
+                    "level": "note",
+                    "message": {
+                        "text": "Nested Ternary"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -2543,7 +2947,20 @@
                                     "startLine": 508
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0046",
+                    "level": "warning",
+                    "message": {
+                        "text": "Nesting Depth"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Major"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -2551,6 +2968,236 @@
                                 },
                                 "region": {
                                     "startLine": 510
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0047",
+                    "level": "note",
+                    "message": {
+                        "text": "No Console Write Line"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "src/BestPracticesSamples.cs"
+                                },
+                                "region": {
+                                    "startLine": 241
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0047",
+                    "level": "note",
+                    "message": {
+                        "text": "No Console Write Line"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "src/BestPracticesSamples.cs"
+                                },
+                                "region": {
+                                    "startLine": 257
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0047",
+                    "level": "note",
+                    "message": {
+                        "text": "No Console Write Line"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "src/BestPracticesSamples.cs"
+                                },
+                                "region": {
+                                    "startLine": 265
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0047",
+                    "level": "note",
+                    "message": {
+                        "text": "No Console Write Line"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "src/BestPracticesSamples.cs"
+                                },
+                                "region": {
+                                    "startLine": 382
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0047",
+                    "level": "note",
+                    "message": {
+                        "text": "No Console Write Line"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "src/BestPracticesSamples.cs"
+                                },
+                                "region": {
+                                    "startLine": 391
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0047",
+                    "level": "note",
+                    "message": {
+                        "text": "No Console Write Line"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "src/BestPracticesSamples.cs"
+                                },
+                                "region": {
+                                    "startLine": 512
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0047",
+                    "level": "note",
+                    "message": {
+                        "text": "No Console Write Line"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "src/BestPracticesSamples.cs"
+                                },
+                                "region": {
+                                    "startLine": 529
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0047",
+                    "level": "note",
+                    "message": {
+                        "text": "No Console Write Line"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "src/BestPracticesSamples.cs"
+                                },
+                                "region": {
+                                    "startLine": 549
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0047",
+                    "level": "note",
+                    "message": {
+                        "text": "No Console Write Line"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "src/BestPracticesSamples.cs"
+                                },
+                                "region": {
+                                    "startLine": 657
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0047",
+                    "level": "note",
+                    "message": {
+                        "text": "No Console Write Line"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "src/BestPracticesSamples.cs"
+                                },
+                                "region": {
+                                    "startLine": 663
                                 }
                             }
                         }
@@ -2576,7 +3223,20 @@
                                     "startLine": 527
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0049",
+                    "level": "note",
+                    "message": {
+                        "text": "Parameter Naming Convention"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Info"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -2586,7 +3246,20 @@
                                     "startLine": 527
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0049",
+                    "level": "note",
+                    "message": {
+                        "text": "Parameter Naming Convention"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Info"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -2596,7 +3269,20 @@
                                     "startLine": 533
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0049",
+                    "level": "note",
+                    "message": {
+                        "text": "Parameter Naming Convention"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Info"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -2604,16 +3290,6 @@
                                 },
                                 "region": {
                                     "startLine": 533
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "src/SecuritySamples.cs"
-                                },
-                                "region": {
-                                    "startLine": 160
                                 }
                             }
                         }
@@ -2639,7 +3315,20 @@
                                     "startLine": 576
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0052",
+                    "level": "note",
+                    "message": {
+                        "text": "Property Naming Convention"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Info"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -2649,7 +3338,20 @@
                                     "startLine": 579
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0052",
+                    "level": "note",
+                    "message": {
+                        "text": "Property Naming Convention"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Info"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -2657,6 +3359,98 @@
                                 },
                                 "region": {
                                     "startLine": 582
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0053",
+                    "level": "note",
+                    "message": {
+                        "text": "Public Field"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "src/BestPracticesSamples.cs"
+                                },
+                                "region": {
+                                    "startLine": 362
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0053",
+                    "level": "note",
+                    "message": {
+                        "text": "Public Field"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "src/BestPracticesSamples.cs"
+                                },
+                                "region": {
+                                    "startLine": 365
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0053",
+                    "level": "note",
+                    "message": {
+                        "text": "Public Field"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "src/BestPracticesSamples.cs"
+                                },
+                                "region": {
+                                    "startLine": 368
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0053",
+                    "level": "note",
+                    "message": {
+                        "text": "Public Field"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "src/BestPracticesSamples.cs"
+                                },
+                                "region": {
+                                    "startLine": 375
                                 }
                             }
                         }
@@ -2682,7 +3476,20 @@
                                     "startLine": 294
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0055",
+                    "level": "note",
+                    "message": {
+                        "text": "Regex In Loop"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -2715,56 +3522,6 @@
                                     "startLine": 265
                                 }
                             }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "src/UserRepository.cs"
-                                },
-                                "region": {
-                                    "startLine": 27
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "src/UserRepository.cs"
-                                },
-                                "region": {
-                                    "startLine": 41
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "src/UserRepository.cs"
-                                },
-                                "region": {
-                                    "startLine": 50
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "src/UserRepository.cs"
-                                },
-                                "region": {
-                                    "startLine": 62
-                                }
-                            }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "src/UserRepository.cs"
-                                },
-                                "region": {
-                                    "startLine": 75
-                                }
-                            }
                         }
                     ]
                 },
@@ -2788,7 +3545,20 @@
                                     "startLine": 362
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0059",
+                    "level": "warning",
+                    "message": {
+                        "text": "Static Mutable Collection"
+                    },
+                    "properties": {
+                        "category": "Bug",
+                        "originalSeverity": "Major"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -2798,7 +3568,20 @@
                                     "startLine": 365
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0059",
+                    "level": "warning",
+                    "message": {
+                        "text": "Static Mutable Collection"
+                    },
+                    "properties": {
+                        "category": "Bug",
+                        "originalSeverity": "Major"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -2831,7 +3614,20 @@
                                     "startLine": 657
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0061",
+                    "level": "note",
+                    "message": {
+                        "text": "String Format With Interpolation"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Info"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -2864,7 +3660,20 @@
                                     "startLine": 223
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0062",
+                    "level": "note",
+                    "message": {
+                        "text": "String Null Or Empty Check"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Info"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -2874,7 +3683,20 @@
                                     "startLine": 223
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0062",
+                    "level": "note",
+                    "message": {
+                        "text": "String Null Or Empty Check"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Info"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -2884,7 +3706,20 @@
                                     "startLine": 233
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0062",
+                    "level": "note",
+                    "message": {
+                        "text": "String Null Or Empty Check"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Info"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -2917,7 +3752,20 @@
                                     "startLine": 323
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0063",
+                    "level": "warning",
+                    "message": {
+                        "text": "Thread Sleep In Async"
+                    },
+                    "properties": {
+                        "category": "Bug",
+                        "originalSeverity": "Major"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -2950,7 +3798,20 @@
                                     "startLine": 206
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0065",
+                    "level": "note",
+                    "message": {
+                        "text": "Todo Comment"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Info"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -2983,7 +3844,20 @@
                                     "startLine": 253
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0066",
+                    "level": "note",
+                    "message": {
+                        "text": "To List Before Linq"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -2993,7 +3867,20 @@
                                     "startLine": 256
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0066",
+                    "level": "note",
+                    "message": {
+                        "text": "To List Before Linq"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -3026,16 +3913,6 @@
                                     "startLine": 587
                                 }
                             }
-                        },
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "src/LargeClassSample.cs"
-                                },
-                                "region": {
-                                    "startLine": 9
-                                }
-                            }
                         }
                     ]
                 },
@@ -3063,6 +3940,167 @@
                     ]
                 },
                 {
+                    "ruleId": "CS0004",
+                    "level": "note",
+                    "message": {
+                        "text": "Boolean Method Naming"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Info"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "src/UserRepository.cs"
+                                },
+                                "region": {
+                                    "startLine": 173
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0011",
+                    "level": "note",
+                    "message": {
+                        "text": "Constant Naming Convention"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Info"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "src/UserRepository.cs"
+                                },
+                                "region": {
+                                    "startLine": 93
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0011",
+                    "level": "note",
+                    "message": {
+                        "text": "Constant Naming Convention"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Info"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "src/UserRepository.cs"
+                                },
+                                "region": {
+                                    "startLine": 106
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0011",
+                    "level": "note",
+                    "message": {
+                        "text": "Constant Naming Convention"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Info"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "src/UserRepository.cs"
+                                },
+                                "region": {
+                                    "startLine": 117
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0011",
+                    "level": "note",
+                    "message": {
+                        "text": "Constant Naming Convention"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Info"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "src/UserRepository.cs"
+                                },
+                                "region": {
+                                    "startLine": 156
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0011",
+                    "level": "note",
+                    "message": {
+                        "text": "Constant Naming Convention"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Info"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "src/UserRepository.cs"
+                                },
+                                "region": {
+                                    "startLine": 197
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0011",
+                    "level": "note",
+                    "message": {
+                        "text": "Constant Naming Convention"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Info"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "src/UserRepository.cs"
+                                },
+                                "region": {
+                                    "startLine": 242
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
                     "ruleId": "CS0017",
                     "level": "warning",
                     "message": {
@@ -3082,7 +4120,20 @@
                                     "startLine": 28
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0017",
+                    "level": "warning",
+                    "message": {
+                        "text": "Disposable Not In Using"
+                    },
+                    "properties": {
+                        "category": "Bug",
+                        "originalSeverity": "Major"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -3092,7 +4143,20 @@
                                     "startLine": 29
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0017",
+                    "level": "warning",
+                    "message": {
+                        "text": "Disposable Not In Using"
+                    },
+                    "properties": {
+                        "category": "Bug",
+                        "originalSeverity": "Major"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -3102,7 +4166,20 @@
                                     "startLine": 39
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0017",
+                    "level": "warning",
+                    "message": {
+                        "text": "Disposable Not In Using"
+                    },
+                    "properties": {
+                        "category": "Bug",
+                        "originalSeverity": "Major"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -3112,7 +4189,20 @@
                                     "startLine": 51
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0017",
+                    "level": "warning",
+                    "message": {
+                        "text": "Disposable Not In Using"
+                    },
+                    "properties": {
+                        "category": "Bug",
+                        "originalSeverity": "Major"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -3122,7 +4212,20 @@
                                     "startLine": 52
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0017",
+                    "level": "warning",
+                    "message": {
+                        "text": "Disposable Not In Using"
+                    },
+                    "properties": {
+                        "category": "Bug",
+                        "originalSeverity": "Major"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -3132,7 +4235,20 @@
                                     "startLine": 63
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0017",
+                    "level": "warning",
+                    "message": {
+                        "text": "Disposable Not In Using"
+                    },
+                    "properties": {
+                        "category": "Bug",
+                        "originalSeverity": "Major"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -3142,7 +4258,20 @@
                                     "startLine": 64
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0017",
+                    "level": "warning",
+                    "message": {
+                        "text": "Disposable Not In Using"
+                    },
+                    "properties": {
+                        "category": "Bug",
+                        "originalSeverity": "Major"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -3152,7 +4281,20 @@
                                     "startLine": 80
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0017",
+                    "level": "warning",
+                    "message": {
+                        "text": "Disposable Not In Using"
+                    },
+                    "properties": {
+                        "category": "Bug",
+                        "originalSeverity": "Major"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -3162,7 +4304,20 @@
                                     "startLine": 81
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0017",
+                    "level": "warning",
+                    "message": {
+                        "text": "Disposable Not In Using"
+                    },
+                    "properties": {
+                        "category": "Bug",
+                        "originalSeverity": "Major"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -3172,7 +4327,20 @@
                                     "startLine": 94
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0017",
+                    "level": "warning",
+                    "message": {
+                        "text": "Disposable Not In Using"
+                    },
+                    "properties": {
+                        "category": "Bug",
+                        "originalSeverity": "Major"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -3182,7 +4350,20 @@
                                     "startLine": 96
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0017",
+                    "level": "warning",
+                    "message": {
+                        "text": "Disposable Not In Using"
+                    },
+                    "properties": {
+                        "category": "Bug",
+                        "originalSeverity": "Major"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -3192,7 +4373,20 @@
                                     "startLine": 107
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0017",
+                    "level": "warning",
+                    "message": {
+                        "text": "Disposable Not In Using"
+                    },
+                    "properties": {
+                        "category": "Bug",
+                        "originalSeverity": "Major"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -3202,7 +4396,20 @@
                                     "startLine": 118
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0017",
+                    "level": "warning",
+                    "message": {
+                        "text": "Disposable Not In Using"
+                    },
+                    "properties": {
+                        "category": "Bug",
+                        "originalSeverity": "Major"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -3212,7 +4419,20 @@
                                     "startLine": 121
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0017",
+                    "level": "warning",
+                    "message": {
+                        "text": "Disposable Not In Using"
+                    },
+                    "properties": {
+                        "category": "Bug",
+                        "originalSeverity": "Major"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -3222,7 +4442,20 @@
                                     "startLine": 157
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0017",
+                    "level": "warning",
+                    "message": {
+                        "text": "Disposable Not In Using"
+                    },
+                    "properties": {
+                        "category": "Bug",
+                        "originalSeverity": "Major"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -3232,7 +4465,20 @@
                                     "startLine": 198
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0017",
+                    "level": "warning",
+                    "message": {
+                        "text": "Disposable Not In Using"
+                    },
+                    "properties": {
+                        "category": "Bug",
+                        "originalSeverity": "Major"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -3265,7 +4511,20 @@
                                     "startLine": 140
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0020",
+                    "level": "warning",
+                    "message": {
+                        "text": "Empty Catch Block"
+                    },
+                    "properties": {
+                        "category": "Bug",
+                        "originalSeverity": "Major"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -3275,7 +4534,20 @@
                                     "startLine": 162
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0020",
+                    "level": "warning",
+                    "message": {
+                        "text": "Empty Catch Block"
+                    },
+                    "properties": {
+                        "category": "Bug",
+                        "originalSeverity": "Major"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -3285,7 +4557,20 @@
                                     "startLine": 181
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0020",
+                    "level": "warning",
+                    "message": {
+                        "text": "Empty Catch Block"
+                    },
+                    "properties": {
+                        "category": "Bug",
+                        "originalSeverity": "Major"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -3295,7 +4580,20 @@
                                     "startLine": 204
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0020",
+                    "level": "warning",
+                    "message": {
+                        "text": "Empty Catch Block"
+                    },
+                    "properties": {
+                        "category": "Bug",
+                        "originalSeverity": "Major"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -3303,6 +4601,144 @@
                                 },
                                 "region": {
                                     "startLine": 208
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0057",
+                    "level": "error",
+                    "message": {
+                        "text": "Sql Injection"
+                    },
+                    "properties": {
+                        "category": "Vulnerability",
+                        "originalSeverity": "Blocker"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "src/UserRepository.cs"
+                                },
+                                "region": {
+                                    "startLine": 27
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0057",
+                    "level": "error",
+                    "message": {
+                        "text": "Sql Injection"
+                    },
+                    "properties": {
+                        "category": "Vulnerability",
+                        "originalSeverity": "Blocker"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "src/UserRepository.cs"
+                                },
+                                "region": {
+                                    "startLine": 41
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0057",
+                    "level": "error",
+                    "message": {
+                        "text": "Sql Injection"
+                    },
+                    "properties": {
+                        "category": "Vulnerability",
+                        "originalSeverity": "Blocker"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "src/UserRepository.cs"
+                                },
+                                "region": {
+                                    "startLine": 50
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0057",
+                    "level": "error",
+                    "message": {
+                        "text": "Sql Injection"
+                    },
+                    "properties": {
+                        "category": "Vulnerability",
+                        "originalSeverity": "Blocker"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "src/UserRepository.cs"
+                                },
+                                "region": {
+                                    "startLine": 62
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0057",
+                    "level": "error",
+                    "message": {
+                        "text": "Sql Injection"
+                    },
+                    "properties": {
+                        "category": "Vulnerability",
+                        "originalSeverity": "Blocker"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "src/UserRepository.cs"
+                                },
+                                "region": {
+                                    "startLine": 75
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0004",
+                    "level": "note",
+                    "message": {
+                        "text": "Boolean Method Naming"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Info"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "src/SecuritySamples.cs"
+                                },
+                                "region": {
+                                    "startLine": 258
                                 }
                             }
                         }
@@ -3328,7 +4764,20 @@
                                     "startLine": 98
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0008",
+                    "level": "error",
+                    "message": {
+                        "text": "Command Injection"
+                    },
+                    "properties": {
+                        "category": "Vulnerability",
+                        "originalSeverity": "Blocker"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -3407,7 +4856,20 @@
                                     "startLine": 219
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0014",
+                    "level": "error",
+                    "message": {
+                        "text": "Csrf Protection Missing"
+                    },
+                    "properties": {
+                        "category": "Vulnerability",
+                        "originalSeverity": "Critical"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -3532,7 +4994,20 @@
                                     "startLine": 219
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0042",
+                    "level": "warning",
+                    "message": {
+                        "text": "Missing Authorization"
+                    },
+                    "properties": {
+                        "category": "Security Hotspot",
+                        "originalSeverity": "Major"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -3542,7 +5017,20 @@
                                     "startLine": 226
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0042",
+                    "level": "warning",
+                    "message": {
+                        "text": "Missing Authorization"
+                    },
+                    "properties": {
+                        "category": "Security Hotspot",
+                        "originalSeverity": "Major"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -3552,7 +5040,20 @@
                                     "startLine": 238
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0042",
+                    "level": "warning",
+                    "message": {
+                        "text": "Missing Authorization"
+                    },
+                    "properties": {
+                        "category": "Security Hotspot",
+                        "originalSeverity": "Major"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -3583,6 +5084,29 @@
                                 },
                                 "region": {
                                     "startLine": 182
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0049",
+                    "level": "note",
+                    "message": {
+                        "text": "Parameter Naming Convention"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Info"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "src/SecuritySamples.cs"
+                                },
+                                "region": {
+                                    "startLine": 160
                                 }
                             }
                         }
@@ -3631,7 +5155,20 @@
                                     "startLine": 281
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0054",
+                    "level": "error",
+                    "message": {
+                        "text": "Reflection With User Input"
+                    },
+                    "properties": {
+                        "category": "Vulnerability",
+                        "originalSeverity": "Critical"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -3641,7 +5178,20 @@
                                     "startLine": 288
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0054",
+                    "level": "error",
+                    "message": {
+                        "text": "Reflection With User Input"
+                    },
+                    "properties": {
+                        "category": "Vulnerability",
+                        "originalSeverity": "Critical"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -3674,7 +5224,20 @@
                                     "startLine": 365
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0056",
+                    "level": "warning",
+                    "message": {
+                        "text": "Sensitive Data In Log"
+                    },
+                    "properties": {
+                        "category": "Vulnerability",
+                        "originalSeverity": "Major"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -3684,7 +5247,20 @@
                                     "startLine": 366
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0056",
+                    "level": "warning",
+                    "message": {
+                        "text": "Sensitive Data In Log"
+                    },
+                    "properties": {
+                        "category": "Vulnerability",
+                        "originalSeverity": "Major"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -3694,7 +5270,20 @@
                                     "startLine": 372
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0056",
+                    "level": "warning",
+                    "message": {
+                        "text": "Sensitive Data In Log"
+                    },
+                    "properties": {
+                        "category": "Vulnerability",
+                        "originalSeverity": "Major"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -3750,7 +5339,20 @@
                                     "startLine": 260
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0064",
+                    "level": "error",
+                    "message": {
+                        "text": "Timing Attack"
+                    },
+                    "properties": {
+                        "category": "Vulnerability",
+                        "originalSeverity": "Critical"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -3783,7 +5385,20 @@
                                     "startLine": 325
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0070",
+                    "level": "error",
+                    "message": {
+                        "text": "Weak Symmetric Encryption"
+                    },
+                    "properties": {
+                        "category": "Vulnerability",
+                        "originalSeverity": "Critical"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -3839,7 +5454,20 @@
                                     "startLine": 52
                                 }
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0072",
+                    "level": "error",
+                    "message": {
+                        "text": "Xxe Injection"
+                    },
+                    "properties": {
+                        "category": "Vulnerability",
+                        "originalSeverity": "Critical"
+                    },
+                    "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
@@ -3857,6 +5485,29 @@
                     "level": "note",
                     "message": {
                         "text": "Excessive Class Length"
+                    },
+                    "properties": {
+                        "category": "Code Smell",
+                        "originalSeverity": "Minor"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "src/LargeClassSample.cs"
+                                },
+                                "region": {
+                                    "startLine": 9
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "CS0067",
+                    "level": "note",
+                    "message": {
+                        "text": "Too Many Fields"
                     },
                     "properties": {
                         "category": "Code Smell",
