@@ -12,7 +12,10 @@
               "id": "no-unused-vars",
               "shortDescription": {
                 "text": "Variables that are declared and not used anywhere in the code are most likely an error."
-              }
+              },
+	      "properties": {
+                 "security-severity": "8.0"
+               }
             }
           ]
         }
